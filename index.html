@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Production Counter Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🧶 Production Counter Calculator</h1>
+
+<div class="card">
+
+<label>Production (KG)</label>
+<input type="number" id="kg" placeholder="13">
+
+<label>Machine Dia (Inch)</label>
+<input type="number" id="dia" placeholder="24">
+
+<label>Gauge (GG)</label>
+<input type="number" id="gauge" placeholder="24">
+
+<label>Yarn Count (NE)</label>
+<input type="number" id="ne" placeholder="34">
+
+<label>Stitch Length (MM)</label>
+<input type="number" id="sl" placeholder="28">
+
+<button onclick="calculate()">
+Calculate Counter
+</button>
+
+</div>
+
+<div class="result">
+
+<h2>Result</h2>
+
+<div class="box">
+Needle
+<h3 id="needle">0</h3>
+</div>
+
+<div class="box">
+Counter
+<h3 id="counter">0</h3>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
